@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace StudentAdminPortalWebAPI.Repository
 {
- public   interface IstudentRepository
+    public interface IstudentRepository
     {
-       Task< List<Student>> GetStudents();
+        Task<List<Student>> GetStudents();
     }
 }
